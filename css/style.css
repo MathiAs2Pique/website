@@ -1,0 +1,60 @@
+*{
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+html{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(114, 114, 200);
+}
+
+p{
+    font-size: 4rem;
+    position: absolute;
+    margin-top: 40vh;
+    color: white;
+    display: block;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    transition: 0.2s;
+}
+
+p:hover{
+    font-size: 3.8rem;
+    transition: ease-out 0.3s;
+}
+
+.footer{
+    position: absolute;
+    margin-top: 90vh;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-around;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.151);
+    padding: 10px;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.26);
+    -moz-box-shadow:    0px 5px 10px 0px rgba(50, 50, 50, 0.26);
+    box-shadow:         0px 5px 10px 0px rgba(50, 50, 50, 0.26);
+}
+
+.footer>a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: 0.1s;
+}
+
+.footer>a:hover{
+    transform: rotate(12deg) scale(1.1);
+    transition: ease-in-out 0.2s;
+}
