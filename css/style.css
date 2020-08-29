@@ -1,5 +1,15 @@
+@font-face {
+	font-family: 'UTMNeutra';
+	src: url('../fonts/UTMNeutra.eot');
+	src: local('UTMNeutra'), url('../fonts/UTMNeutra.woff') format('woff'), url('../fonts/UTMNeutra.ttf') format('truetype');
+}
+
+:root{
+    --utm : 'UTMNeutra';
+}
+
 *{
-    font-family: sans-serif;
+    font-family: var(--utm);
     font-weight: 600;
 }
 
@@ -13,20 +23,20 @@ html{
 }
 
 p{
-    font-size: 4rem;
+    font-size: 5rem;
     position: absolute;
     margin-top: 40vh;
     color: white;
     display: block;
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
     text-align: center;
     transition: 0.2s;
 }
 
 p:hover{
-    font-size: 3.8rem;
+    font-size: 4.8rem;
     transition: ease-out 0.3s;
 }
 
@@ -50,7 +60,7 @@ p:hover{
 .footer>a{
     color: whitesmoke;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     transition: 0.1s;
 }
 
