@@ -33,13 +33,13 @@ p{
     margin-right: 15%;
     text-align: center;
     transition: 0.2s;
-    text-shadow: 0px 4px 2px black;
+    text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.397);
 }
 
 p:hover{
     font-size: 4.8rem;
     transition: ease-out 0.3s;
-    text-shadow: 0px 6px 2px black;
+    text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.397);
 }
 
 .footer{
