@@ -6,6 +6,7 @@
 
 :root{
     --utm : 'UTMNeutra';
+    --color : rgb(114, 114, 200);
 }
 
 *{
@@ -19,7 +20,12 @@ html{
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgb(114, 114, 200);
+    background-color: var(--color);
+}
+
+::selection{
+    color: white;
+    background-color: black;
 }
 
 p{
